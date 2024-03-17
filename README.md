@@ -4,7 +4,9 @@ This repository leverages HuggingFace libraries and artifacts, including Transfo
 The goals of this project are threefold:
 (1) Create a product which takes, as input, topics that a researcher is already interested in and
 returns a novel topic-of-interest each time it is called.
+
 (2) Return a handful of research documents related to that topic along with some useful metainformation about those documents.
+
 (3) Equip the system to learn, over a series of time steps, to recommend increasingly better
 topics according to the user’s inputs and feedback.
 
